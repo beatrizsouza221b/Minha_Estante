@@ -10,12 +10,25 @@ body {
     font-size: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-around
+    /*justify-content: space-around*/
     ;
   }
 
   .retangulo1 img {
     height: 50px;
+    justify-content: flex-end;
+  }
+
+/*barra de pesquisa do cabeçalho*/
+  input[type="search"] {
+    width: 270px;
+    height: 30px;
+    border-radius: 15px;
+    appearance: none;
+    background-color: #D8D8F6;
+    border: none;
+    display: flex;
+    align-items: center;
   }
 
   /*barra de navegação*/
@@ -25,12 +38,31 @@ body {
     background: #194906;
     display: flex;
     align-items: center;
-    justify-content: space-around
+    justify-content: space-around;
+    padding: 0 20px
     ;
+  }
+
+  .retangulo2 ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+
+  .retangulo2 li {
+    list-style: none;
+    margin: 0 30px;
   }
 
   .retangulo2 a {
     font-size: 20px;
     color: #EDEDFF;
+    text-decoration: none;
+    font-family: Quicksand;
+    /*display: flex;
+    justify-content: space-between;*/
+    
   }
 }
+
