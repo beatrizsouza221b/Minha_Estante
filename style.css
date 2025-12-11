@@ -1,0 +1,36 @@
+body {
+  background-color: #D8D8F6;
+  margin: 0%;
+
+  /*cabeçalho*/
+  .retangulo1 {
+    width: 100%;
+    height: 120px;
+    background: #37123C;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+    ;
+  }
+
+  .retangulo1 img {
+    height: 50px;
+  }
+
+  /*barra de navegação*/
+  .retangulo2 {
+    width: 100%;
+    height: 70px;
+    background: #194906;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+    ;
+  }
+
+  .retangulo2 a {
+    font-size: 20px;
+    color: #EDEDFF;
+  }
+}
