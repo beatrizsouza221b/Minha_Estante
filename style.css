@@ -1,5 +1,5 @@
 body {
-  background-color: #D8D8F6;
+  background-color: #EDEDFF;
   margin: 0%;
   box-sizing: border-box;
   font-family: 'Quicksand', sans-serif;
@@ -91,12 +91,48 @@ body {
     display: block;
   }
 
+
+  /*seção de lançamentos*/
+   /*titulo lançamento*/
   .lancamentos_titulo {
     display: flex;
+    flex-direction: column;
     font-size: 25px;
     color: #194906;
     justify-content: center;
     align-items: center;
   }
+
+
+  /*cards dos produtos*/
+  .cards_lancamentos {
+      display: flex;           
+      justify-content: center;  
+      gap: 20px;                 
+      padding: 20px;
+      width: 100%;
+    }
+
+  .card_lancamento {
+      background-color: #D8D8F6; 
+      width: 18%;                
+      min-width: 180px;          
+      padding: 15px;
+      border-radius: 12px;       
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;   
+      box-sizing: border-box;    
+  }
+
+  /* Ajuste das imagens dentro dos cards */
+  .card_lancamento img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-bottom: 10px;
+  }
+
+ 
 
 }
