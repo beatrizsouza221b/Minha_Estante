@@ -1,20 +1,23 @@
 body {
   background-color: #D8D8F6;
   margin: 0%;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
 
   /*cabeçalho*/
-  .retangulo1 {
+  .cabeçalho {
     width: 100%;
     height: 120px;
     background: #37123C;
-    font-size: 20px;
     display: flex;
     align-items: center;
-    /*justify-content: space-around*/
+    justify-content: space-between;
+    padding: 0 40px;
+    box-sizing: border-box
     ;
   }
 
-  .retangulo1 img {
+  .cabeçalho img {
     height: 50px;
     justify-content: flex-end;
   }
@@ -31,38 +34,69 @@ body {
     align-items: center;
   }
 
+  .icones img {
+    height: 35px;
+    justify-content: flex-end;
+    gap: 20px;
+  }
+
+
+
   /*barra de navegação*/
-  .retangulo2 {
+  .barra_navegacao {
     width: 100%;
     height: 70px;
     background: #194906;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 0 20px
-    ;
+    padding: 0 20px;
+    box-sizing: border-box;
   }
 
-  .retangulo2 ul {
+  .barra_navegacao ul {
     display: flex;
     margin: 0;
     padding: 0;
     align-items: center;
+    gap: 70px;
   }
 
-  .retangulo2 li {
+  .barra_navegacao li {
     list-style: none;
-    margin: 0 30px;
+    margin: 0;
   }
 
-  .retangulo2 a {
+  .barra_navegacao a {
     font-size: 20px;
     color: #EDEDFF;
     text-decoration: none;
-    font-family: Quicksand;
     /*display: flex;
     justify-content: space-between;*/
     
   }
-}
 
+  .banner {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .lancamentos_titulo {
+    display: flex;
+    font-size: 25px;
+    color: #194906;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
