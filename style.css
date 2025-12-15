@@ -97,7 +97,7 @@ body {
   .lancamentos_titulo {
     display: flex;
     flex-direction: column;
-    font-size: 25px;
+    font-size: 24px;
     color: #194906;
     justify-content: center;
     align-items: center;
@@ -108,31 +108,44 @@ body {
   .cards_lancamentos {
       display: flex;           
       justify-content: center;  
-      gap: 20px;                 
+      gap: 30px;                 
       padding: 20px;
       width: 100%;
     }
 
   .card_lancamento {
       background-color: #D8D8F6; 
-      width: 18%;                
-      min-width: 180px;          
+      width: 20%;                
+      min-width: 140px;          
       padding: 15px;
       border-radius: 12px;       
       display: flex;
       flex-direction: column;
-      align-items: flex-start;   
-      box-sizing: border-box;    
+      align-items: center;   
+      box-sizing: border-box; 
+      font-size: 16px;   
   }
 
   /* Ajuste das imagens dentro dos cards */
   .card_lancamento img {
-      width: 100%;
+      width: 120px;
       height: auto;
       border-radius: 5px;
       margin-bottom: 10px;
   }
 
- 
+ .botao_comprar {
+  background-color: #87c961;
+  width: 120px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
 
+ }
+
+ .botao_comprar img {
+  width: 20px;
+  align-items: flex-start;
+  justify-content: center;
+ }
 }
