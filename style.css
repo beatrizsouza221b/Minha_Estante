@@ -1,3 +1,15 @@
+:root {
+  --cor_fundo:#EDEDFF;
+  --verde_escuro: #194906;
+  --verde_claro: #87c961;
+  --lilas: #d8d8f6;
+  --violeta: #37123c;
+
+  --fonte: 'quicksand', sans-serif;
+}
+
+
+
 body {
   background-color: #EDEDFF;
   margin: 0%;
@@ -22,7 +34,7 @@ body {
     justify-content: flex-end;
   }
 
-/*barra de pesquisa do cabeçalho*/
+  /*barra de pesquisa do cabeçalho*/
   input[type="search"] {
     width: 270px;
     height: 30px;
@@ -110,13 +122,13 @@ body {
 
   /*cards dos produtos*/
   .cards_lancamentos {
-      display: flex;           
-      justify-content: center;  
-      gap: 35px;                 
-      padding: 20px;
-      width: 100%;
-      margin-top: 5px;
-    }
+    display: flex;           
+    justify-content: center;  
+    gap: 35px;                 
+    padding: 20px;
+    width: 100%;
+    margin-top: 5px;
+  }
 
   .card_lancamento {
     background-color: #D8D8F6; 
@@ -142,38 +154,64 @@ body {
   }
 
  .botao_comprar {
-  background-color: #87c961;
-  width: 120px;
-  height: 30px;
-  border: none;
-  border-radius: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  color: #194906;
- }
+    background-color: #87c961;
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    color: #194906;
+  }
 
  .botao_comprar img {
-  width: 20px;
-  /*align-items: flex-start;
-  justify-content: center;*/
- }
+    width: 20px;
+  }
 
 
  /*Rodapé*/
  .rodape {
-  width: 100%;
-    height: 190px;
+    width: 100%;
+    height: 150px;
     background: #37123C;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 0 40px;
-    box-sizing: border-box;
- }
+    box-sizing: border-box;    
+    color: var(--cor_fundo);
+  }
 
- .rodape img {
-  
+  .rodape_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+ .rodape_logo img {
+    width: 200px;
+    margin-top: 15px;
+  }
+
+  /* Links do meio */
+  .rodape_links p {
+    margin: 6px 0;
+    margin-top: 15px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  /* Redes sociais */
+  .rodape_redes h4 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+  }
+
+  .rodape_redes p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+
+
+
  }
-}
