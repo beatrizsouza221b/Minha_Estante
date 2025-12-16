@@ -8,8 +8,6 @@
   --fonte: 'quicksand', sans-serif;
 }
 
-
-
 body {
   background-color: #EDEDFF;
   margin: 0%;
@@ -34,7 +32,7 @@ body {
     justify-content: flex-end;
   }
 
-  /*barra de pesquisa do cabeçalho*/
+/*barra de pesquisa do cabeçalho*/
   input[type="search"] {
     width: 270px;
     height: 30px;
@@ -122,13 +120,13 @@ body {
 
   /*cards dos produtos*/
   .cards_lancamentos {
-    display: flex;           
-    justify-content: center;  
-    gap: 35px;                 
-    padding: 20px;
-    width: 100%;
-    margin-top: 5px;
-  }
+      display: flex;           
+      justify-content: center;  
+      gap: 35px;                 
+      padding: 20px;
+      width: 100%;
+      margin-top: 5px;
+    }
 
   .card_lancamento {
     background-color: #D8D8F6; 
@@ -154,21 +152,23 @@ body {
   }
 
  .botao_comprar {
-    background-color: #87c961;
-    width: 120px;
-    height: 30px;
-    border: none;
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 6px;
-    color: #194906;
-  }
+  background-color: #87c961;
+  width: 120px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  color: #194906;
+ }
 
  .botao_comprar img {
-    width: 20px;
-  }
+  width: 20px;
+  /*align-items: flex-start;
+  justify-content: center;*/
+ }
 
 
  /*Rodapé*/
@@ -185,6 +185,8 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
+    color: var(--cor_fundo);
+
   }
 
  .rodape_logo img {
@@ -193,7 +195,7 @@ body {
   }
 
   /* Links do meio */
-  .rodape_links p {
+  .rodape_links span {
     margin: 6px 0;
     margin-top: 15px;
     font-size: 14px;
@@ -207,11 +209,13 @@ body {
 
   }
 
-  .rodape_redes p {
+  .rodape_redes span {
     margin: 5px 0;
     font-size: 14px;
   }
 
+  .rodape_redes img {
+    width: 20px;
+  }
 
-
- }
+}
